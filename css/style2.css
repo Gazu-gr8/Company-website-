@@ -1,0 +1,523 @@
+* {
+    box-sizing: border-box;
+}
+
+
+
+.dropdown {
+	position: relative;
+	display: inline-block;
+}
+
+.dropdown-menu ul:hover {background-color: white;}
+
+.dropdown:hover .dropdown-menu {display: block;}
+
+.dropdown:hover .dropdown {background-color: lightgreen;}
+	
+
+}
+#paragraph{
+	position: relative;
+	padding: 40px 35px;
+	background: url("../pic/pad.jpg") no-repeat;
+	background-size:1800px;
+	background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+	text-align: center;
+	text-margin-top: 30px;
+	color:blue;
+}
+
+#paragraph .h4 {
+	padding: 50px 30px;
+	margin-top: 250px;
+}
+
+.text{
+	position: relative;
+	padding:45px 0px;
+	width: 70%;
+	margin:auto;
+	right:30px;
+	text-align: center;
+	line-height: 1.6;
+}
+
+#structure h4{
+	color: white;
+	tet-transform: uppercase;
+	text-align: center;
+	margin-left: 50px;
+}
+
+#structure{
+	overflow: hidden;
+	padding:50px;
+}
+
+.grey-bg{background-color:#ABACAD;
+}
+
+.our{
+	position: relative;
+	padding: 40px 35px;
+	background: url("../pic/black.jpg") no-repeat;
+
+	 /* Set a specific height */
+    min-height: 750px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+	text-align: center;
+	text-margin-top: 50px;
+	color:blue;
+}
+
+.our:after {
+	content:"";
+	display: table;
+	clear: both;
+}
+
+#say{
+	float: left;
+	padding:10px;
+	width: 50%;
+	height: 300px
+	text-align: left;
+	line-height: 1.6;
+}
+
+@media screen and (max-width: 600px) {
+	#say {
+		width:100%;
+	}
+}
+
+
+
+.col{
+	background-color: #fff;
+	width: 49%;
+	margin-right: 1%;
+	float: left;
+	padding: 20px;
+	box-sizing: border-box;
+	border-radius:15px;
+	overflow: hidden;
+}
+
+.col1{
+	background-color: #fff;
+	width: 49%;
+	margin-right: 30%;
+	margin-top: 2%;
+	float: right;
+	padding: 30px;
+	box-sizing: border-box;
+	border-radius:15px;
+	overflow: hidden;
+}
+.col1 img{
+	float: left;
+	display: inline-block;
+	width: 13%;
+	margin-right:2%;
+}
+.col img{
+	float: left;
+	display: inline-block;
+	width: 13%;
+	margin-right:2%;
+}
+
+.content{
+	width: 85%;
+	float: left;
+	color:#878181;
+}
+
+.content-title{
+	margin:10px;
+}
+
+#social {
+	padding: 40px 35px;
+	background: url("../pic/pad.jpg") no-repeat;
+	background-size:1800px;
+	background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+	color:blue;
+}
+
+#follow {
+	position: relative;
+	padding: 50px 150px;
+	margin:left;
+	right:100px;
+	
+}
+
+.stext{
+	position: relative;
+	padding:45px 0px;
+	width: 70%;
+	margin:left;
+	right:100px;
+	text-align: center;
+	line-height: 1.6;
+}
+
+#social-icons a{
+	text-decoration: none;
+	position:relative;
+	padding:10px;
+	margin:left;
+	right:-50px;
+	font-size:70px;
+	display: inline-block;
+	margin-right: 100px;
+
+}
+.parallax {
+    /* The image used */
+    background-image: url("../pic/ship.jpg");
+
+    /* Set a specific height */
+    min-height: 750px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#greet {
+	position: relative;
+	padding:180px 200px;
+	width: 100%;
+	margin:center;
+	right:0px;
+	text-align: center;
+	line-height: 1.6;
+	color: lightgreen;
+}
+.work{
+	position: relative;
+	padding: 40px 35px;
+	background: url("../pic/pad.jpg") no-repeat;
+
+	 /* Set a specific height */
+    min-height: 750px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+	text-align: center;
+	text-margin-top: 30px;
+	color:blue;
+}
+
+#hello{
+	position: relative;
+	padding:45px 0px;
+	width: 70%;
+	margin:auto;
+	right:30px;
+	text-align: center;
+	line-height: 1.6;
+}
+#active{
+	position: relative;
+	padding:45px 0px;
+	width: 70%;
+	margin-left:20px;
+	right:-220px;
+	text-align: left;
+	line-height: 1.6;
+}
+.heading{
+	position: relative;
+	padding: 10px 35px;
+	background: url("../pic/Gazlogojpg.jpg") no-repeat;
+
+	 /* Set a specific height */
+    min-height: 750px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+	text-align: center;
+	text-margin-top: 10px;
+	color:darkgreen;
+}
+
+.business{
+	position: relative;
+	padding:60px 0px;
+	width: 70%;
+	margin:left;
+	right:-150px;
+	text-align:left;
+	line-height: 1.6;
+}
+
+.row {
+    margin: 8px 120px;
+}
+
+/* Add padding BETWEEN each column */
+.row,
+.row > .column {
+    padding: 1.5px;
+}
+
+/* Create four equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 30%;
+}
+
+/* Clear floats after rows */ 
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Content */
+.content {
+    background-color: white;
+    padding: 10px;
+}
+
+@media screen and (max-width: 900px) {
+    .column {
+        width: 50%;
+    }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+    .column {
+        width: 100%;
+    }
+}
+
+/* Add a gray background color with some padding */
+.bodyb {
+    font-family: Arial;
+    padding: 20px;
+    background: #f1f1f1;
+}
+
+/* Header/Blog Title */
+.blog {
+    padding: 30px;
+    font-size: 40px;
+    text-align: center;
+    background: white;
+}
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.bleftcolumn {   
+    float: left;
+    width: 75%;
+}
+
+/* Right column */
+.brightcolumn {
+    float: left;
+    width: 25%;
+    padding-left: 20px;
+}
+
+/* Fake image */
+.fakeimg {
+    background-color: #aaa;
+    width: 100%;
+    padding: 20px;
+}
+
+/* Add a card effect for articles */
+.bcard {
+     background-color: white;
+     padding: 20px;
+     margin-top: 20px;
+}
+
+/* Clear floats after the columns */
+.brow:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Footer */
+.bfooter {
+    padding: 20px;
+    text-align: center;
+    background: #ddd;
+    margin-top: 20px;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+    .leftcolumn, .rightcolumn {   
+        width: 100%;
+        padding: 0;
+    }
+}
+
+.team{
+	padding: 130px 35px;
+	background: url("../pic/joan.jpg") no-repeat;
+	background-size:1800px;
+	background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+	color:lightgreen;
+}
+
+.lrow {
+    margin: 150px 120px;
+}
+
+/* Add padding BETWEEN each column */
+.lrow,
+.lrow > .lcolumn {
+    padding: 40px;
+}
+
+/* Create four equal columns that floats next to each other */
+.lcolumn {
+  float: left;
+  width: 50%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+
+/* Content */
+.lcontainer {
+    background-color: white;
+	text-align: center;
+	line-height: 1.6; 
+}
+
+.lcard{
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.lcontainer {
+  padding: 0 16px;
+}
+
+.lcontainer::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+@media screen and (max-width: 650px) {
+  .lcolumn {
+    width: 100%;
+    display: block;
+  }
+}
+.jumbotron {
+background: lightgreen;
+color: lightgreen;
+border-radius: 0px;
+}
+.jumbotron-sm { padding-top: 30px;
+padding-bottom: 24px; }
+.jumbotron small {
+color: grey;
+}
+.h1 small {
+font-size: 24px;
+}
+
+.eparallax {
+    /* The image used */
+    background-image: url("../pic/Event.jpg");
+
+    /* Set a specific height */
+    min-height: 250px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#egreet {
+	position: relative;
+	padding:180px 200px;
+	width: 100%;
+	margin:center;
+	right:0px;
+	text-align: center;
+	line-height: 1.6;
+	color: lightgreen;
+}
+.ediv {
+	    background-color: lightblue;
+}
+.ediv1 {
+	position: relative;
+	margin: left;
+	right: -200px
+    width: 1800px;
+    height: 200px;
+    border: 5px solid white;
+    box-sizing: border-box;
+    padding: 30px 150px;
+
+}
+
+.ediv2 {
+    position: relative;
+	margin: left;
+	right: -200px
+    width: 1800px;
+    height: 200px;
+    border: 5px solid white;
+    box-sizing: border-box;
+    padding: 30px 150px;
+}
+.ediv3 {
+    position: relative;
+	margin: left;
+	right: -200px
+    width: 1800px;
+    height: 200px;
+    border: 5px solid white;
+    box-sizing: border-box;
+    padding: 30px 150px;
+}
+.ediv4 {
+    position: relative;
+	margin: left;
+	right: -200px
+    width: 1800px;
+    height: 200px;
+    border: 5px solid white;
+    box-sizing: border-box;
+    padding: 30px 150px;
+}
